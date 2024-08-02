@@ -1,1 +1,7 @@
 
+    public void getSystem() {
+        QuerySystemDTO dto = new QuerySystemDTO();
+
+        System.out.println(JSONObject.toJSONString(dto));
+
+    }
